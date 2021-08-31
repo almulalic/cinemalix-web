@@ -1,0 +1,162 @@
+/*==============================
+	Reviews
+==============================*/
+.reviews {
+  margin-bottom: 40px;
+}
+
+.reviews__profileItem {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.reviews__profileItem .reviews__autor {
+  width: 100%;
+  position: relative;
+}
+
+.reviews__movieName {
+  color: #ffd700;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.reviews__profileItem .reviews__name,
+.reviews__time {
+  margin-bottom: 5px;
+}
+
+.reviews__profileItem .reviews__text {
+  word-wrap: break-word;
+}
+
+.reviews__profileItem .reviews__autor {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.authorWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.reviews__autor {
+  display: block;
+  position: relative;
+  padding-left: 55px;
+  margin-bottom: 15px;
+  padding-right: 60px;
+}
+
+.form__input-slider {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.form__input-slider .icon {
+  height: 50px;
+  margin-bottom: 15px;
+  color: #dbbb04;
+}
+
+.form__input-slider .filter__item-label {
+  font-size: 14px !important;
+}
+
+.form__input-slider .filter__item-label span {
+  font-weight: bold;
+}
+
+.reviews__avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.reviews__name {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.reviews__time {
+  display: block;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.reviews__text {
+  display: block;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  line-height: 25px;
+  background-color: #28282d;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.reviews__item {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.reviews__item--answer {
+  margin-left: 55px;
+}
+
+.reviews__rating {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  right: 0;
+  top: 8px;
+}
+
+.reviews__rating i {
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.5);
+  margin-right: 5px;
+}
+
+.reviews__rating i:before {
+  background-image: -webkit-linear-gradient(0deg, #ffd700 0%, #dbbb04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #dbbb04;
+}
+
+.reviewForm {
+  margin-bottom: 50px;
+}
+
+.reviewForm input {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .reviews__name {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .reviews {
+    margin-bottom: 30px;
+    padding-right: 20px;
+  }
+}

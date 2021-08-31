@@ -1,0 +1,62 @@
+/*==============================
+	Stats
+==============================*/
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #28282d;
+  padding: 20px;
+  height: 110px;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.stats i {
+  font-size: 46px;
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+
+.stats i:before {
+  background-image: -webkit-linear-gradient(0deg, #ffd700 0%, #dbbb04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #dbbb04;
+}
+
+.stats span {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.stats p {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 100%;
+}
+
+.stats:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  display: block;
+  background-image: -moz-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -webkit-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -ms-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  background-image: linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  -webkit-box-shadow: 0 0 20px 0 rgba(255, 215, 0, 0.5);
+  box-shadow: 0 0 20px 0 rgba(255, 215, 0, 0.5);
+}

@@ -1,0 +1,178 @@
+.m-dropdown {
+  margin: 50px auto;
+  width: auto;
+  display: block;
+  font-size: 12px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.m-dropdown .e-button {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 8px 40px 8px 15px;
+  z-index: 900;
+  color: #fff;
+  position: relative;
+  border: 2px solid transparent;
+  margin-top: 2px;
+  z-index: 5;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background: #ffd90080;
+  border-radius: 5px;
+}
+.m-dropdown .e-button:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  color: white;
+  background-color: #0000007c;
+}
+.m-dropdown .e-button:hover .e-burger span {
+  background: #ffffff;
+}
+
+.m-dropdown .e-button:after {
+  left: 100%;
+  margin-left: 2px;
+  border-bottom-left-radius: 10px;
+}
+.m-dropdown .e-button:before {
+  right: 100%;
+  margin-right: 2px;
+  border-bottom-right-radius: 10px;
+}
+.m-dropdown .e-button .e-burger {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 15px;
+  width: 15px;
+  height: 14px;
+  transform-origin: center;
+  z-index: -1;
+}
+.m-dropdown .e-button .e-burger span {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -ms-border-radius: 2px;
+  width: 100%;
+  height: 2px;
+  display: block;
+  left: 0;
+  transform-origin: center;
+}
+.m-dropdown .e-button .e-burger span:first-child {
+  top: 0;
+  transform: none;
+}
+.m-dropdown .e-button .e-burger span:last-child {
+  top: auto;
+  bottom: 0;
+  transform: none;
+}
+
+.m-dropdown .e-button.open {
+  border-color: transparent;
+  background: #ffd900a1;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #ffffff;
+}
+.m-dropdown .e-button.open .e-burger span {
+  background: #fdfcfc;
+}
+.m-dropdown .e-button.open .e-burger span:first-child {
+  opacity: 0;
+}
+.m-dropdown .e-button.open .e-burger span:nth-child(2) {
+  transform: translateY(-50%) rotate(-45deg);
+}
+.m-dropdown .e-button.open .e-burger span:nth-child(3) {
+  transform: translateY(-50%) rotate(45deg);
+}
+.m-dropdown .e-button.open .e-burger span:last-child {
+  opacity: 0;
+}
+.m-dropdown .e-button.open .e-burger:after {
+  height: 15px;
+  opacity: 1;
+}
+.m-dropdown .e-list {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #00000028;
+  float: left;
+  overflow: hidden;
+  z-index: 999;
+}
+.m-dropdown .e-list li {
+  display: block;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.01);
+  box-sizing: border-box;
+}
+.m-dropdown .e-list li:last-child {
+  border: none;
+}
+.m-dropdown .e-list li a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 15px;
+  float: left;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.m-dropdown .e-list li a:hover {
+  background-color: rgba(255, 255, 255, 0.096);
+  color: #fff;
+}

@@ -1,0 +1,20 @@
+.form__textarea {
+  height: 150px;
+  position: relative;
+  color: #fff;
+  font-size: 15px;
+  width: 100%;
+  color: #fff;
+  padding: 15px 20px;
+  letter-spacing: 0.2px;
+  resize: none;
+  background-color: #2b2b31;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+}
+
+.form__textarea-disabled {
+  background-color: #212125 !important;
+  cursor: not-allowed !important;
+}

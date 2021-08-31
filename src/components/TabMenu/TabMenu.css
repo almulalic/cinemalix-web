@@ -1,0 +1,114 @@
+@media (min-width: 576px) {
+  .tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .tabs li {
+    margin-right: 30px;
+  }
+
+  .tabs li:last-child {
+    margin-right: 0;
+  }
+
+  .tabs a {
+    display: flex;
+    line-height: 40px;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    color: rgba(255, 255, 255, 0.5);
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .tabs .nav-link-subtext {
+    margin: 0;
+    align-self: center;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .tabs .active .nav-link-subtext {
+    color: #fff;
+  }
+
+  .tabs a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    display: block;
+    background-image: -moz-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+    background-image: -webkit-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+    background-image: -ms-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+    background-image: linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    transition: 0.4s ease;
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
+  .nav-link.active {
+    color: #fff !important;
+  }
+
+  .tabs a.active {
+    color: #fff;
+  }
+
+  .tabs a {
+    color: rgb(211, 210, 210);
+  }
+
+  .tabs a.active:before {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-box-shadow: 0 0 20px 0 rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 20px 0 rgba(255, 215, 0, 0.5);
+  }
+
+  .tabs--profile {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .tabs--profile {
+    display: flex;
+  }
+  .tabs--profile a {
+    line-height: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .movieOverview__title {
+    font-size: 36px;
+  }
+  .tabs--profile li {
+    margin-right: 45px;
+  }
+  .tabs--profile li:last-child {
+    margin-right: 0;
+  }
+}

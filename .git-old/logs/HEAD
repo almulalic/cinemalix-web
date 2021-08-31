@@ -1,0 +1,114 @@
+0000000000000000000000000000000000000000 ec49affd4f1e5b6b0b4e63340ee3ce97ad5f703b almulalic <almir.mulalic.am@gmail.com> 1619376141 +0200	clone: from https://cinemalux.hopto.org/git/Cinemalux-Project/Cinemalux-Web.git
+ec49affd4f1e5b6b0b4e63340ee3ce97ad5f703b d30555ed714116d00110f0264b2c8cc5ab50feaa almulalic <almir.mulalic.am@gmail.com> 1620140666 +0200	pull: Fast-forward
+d30555ed714116d00110f0264b2c8cc5ab50feaa 6ab75a5db3aa968053fa54091eae9b8ce843ff0e almulalic <almir.mulalic.am@gmail.com> 1620144189 +0200	commit: added react
+6ab75a5db3aa968053fa54091eae9b8ce843ff0e b36cb12fc15dd6948738c0e14689d3d8c726e965 almulalic <almir.mulalic.am@gmail.com> 1620144266 +0200	commit: added luxon
+b36cb12fc15dd6948738c0e14689d3d8c726e965 0d9a2bfc12ec5208a3309efa3bf14aafbbc20770 almulalic <almir.mulalic.am@gmail.com> 1620235074 +0200	commit: removed irrelevant folders
+0d9a2bfc12ec5208a3309efa3bf14aafbbc20770 940653b13c55060e115f5a27dfc0854ae6c3977e almulalic <almir.mulalic.am@gmail.com> 1620235231 +0200	commit: removed lock
+940653b13c55060e115f5a27dfc0854ae6c3977e d28ef9311d5ddbfada98ea4d90b8e1d842171730 almulalic <almir.mulalic.am@gmail.com> 1620315299 +0200	commit: dodan download na front page
+d28ef9311d5ddbfada98ea4d90b8e1d842171730 50dbcda30c29bb056b796624d6218598ffe79fdc almulalic <almir.mulalic.am@gmail.com> 1620752852 +0200	commit: added docker
+50dbcda30c29bb056b796624d6218598ffe79fdc fe3d4ec13d98e2fb616a70947d4dcb2dfea5b327 almulalic <almir.mulalic.am@gmail.com> 1621432280 +0200	commit: promjenjena struktura fajlova i dodae generalne react komponente
+fe3d4ec13d98e2fb616a70947d4dcb2dfea5b327 99dd3a2659a5c3119ff13b5763ba66c708384c89 almulalic <almir.mulalic.am@gmail.com> 1621435254 +0200	commit: added carousel and movie card
+99dd3a2659a5c3119ff13b5763ba66c708384c89 93a5b9eda8185627bfbf1d910b31ba569e17c2c8 almulalic <almir.mulalic.am@gmail.com> 1621437993 +0200	commit: added bootstrap icons
+93a5b9eda8185627bfbf1d910b31ba569e17c2c8 a8155a8cf7026194a91d0c852c27a8c25c79f099 almulalic <almir.mulalic.am@gmail.com> 1621438424 +0200	commit: finished movie section
+a8155a8cf7026194a91d0c852c27a8c25c79f099 cd28c558c34bc2d46ef8a5fba7f4d940ca2a988f almulalic <almir.mulalic.am@gmail.com> 1621466314 +0200	commit: added tab section
+cd28c558c34bc2d46ef8a5fba7f4d940ca2a988f 5bd80360545dccf0e9e59038d7241af275b05499 almulalic <almir.mulalic.am@gmail.com> 1621468111 +0200	commit: added all movies section
+5bd80360545dccf0e9e59038d7241af275b05499 e632d6cb6b52f24f641e0b44bab4aa3f6982a8a2 almulalic <almir.mulalic.am@gmail.com> 1621469564 +0200	commit: added top offers section
+e632d6cb6b52f24f641e0b44bab4aa3f6982a8a2 e09a9b0cd362b11386129fa0c2580adda94f6152 almulalic <almir.mulalic.am@gmail.com> 1621512967 +0200	commit: added router
+e09a9b0cd362b11386129fa0c2580adda94f6152 5006c400b88a3a787767e11b1dbacdbee7a7ce5f almulalic <almir.mulalic.am@gmail.com> 1621514519 +0200	commit: Added login form
+5006c400b88a3a787767e11b1dbacdbee7a7ce5f 88c9d2a88132ea98cd56fa3ebcc1dc20f73e50c4 almulalic <almir.mulalic.am@gmail.com> 1621531010 +0200	commit: added registration page
+88c9d2a88132ea98cd56fa3ebcc1dc20f73e50c4 7ae6064b254cb1249ba4171d414481aa0c5e72eb almulalic <almir.mulalic.am@gmail.com> 1621532579 +0200	commit: added forgot password field
+7ae6064b254cb1249ba4171d414481aa0c5e72eb ac0ec2e73f75b6d17f354a481e5526cd11196d2d almulalic <almir.mulalic.am@gmail.com> 1621534729 +0200	commit: added 3 new components and 404 page
+ac0ec2e73f75b6d17f354a481e5526cd11196d2d 75a7dea79c13f3aba8c8b03a3971f42dd166f0a2 almulalic <almir.mulalic.am@gmail.com> 1621537083 +0200	commit: added movie overview
+75a7dea79c13f3aba8c8b03a3971f42dd166f0a2 62cdc0972ad1009df3575d56ea559475788a7e45 almulalic <almir.mulalic.am@gmail.com> 1621556005 +0200	commit: added screening times to overview
+62cdc0972ad1009df3575d56ea559475788a7e45 1ca6b90b051199b4b02d9058bf3eeda38c579552 almulalic <almir.mulalic.am@gmail.com> 1621558513 +0200	commit: added day filtering to screening time
+1ca6b90b051199b4b02d9058bf3eeda38c579552 2dfe77063df4a25131c37b3787fa292837920f3b almulalic <almir.mulalic.am@gmail.com> 1621558894 +0200	commit: addded comments
+2dfe77063df4a25131c37b3787fa292837920f3b cf112d116e63082753c79eae2db552649c4cd31f almulalic <almir.mulalic.am@gmail.com> 1621605126 +0200	commit: Added dates to tabs
+cf112d116e63082753c79eae2db552649c4cd31f f2df8a4e12589c7546480e19e0bf355387d7ff03 almulalic <almir.mulalic.am@gmail.com> 1621608410 +0200	commit: added reviews
+f2df8a4e12589c7546480e19e0bf355387d7ff03 f593e9034ee0e3892642ea9a9c3ac3b2a2e47487 almulalic <almir.mulalic.am@gmail.com> 1621610668 +0200	commit: visual tweaks on movie overview
+f593e9034ee0e3892642ea9a9c3ac3b2a2e47487 5ff5a299b05a6a74b6a709586a2f39a50c9c63c0 almulalic <almir.mulalic.am@gmail.com> 1621634021 +0200	commit: added profile
+5ff5a299b05a6a74b6a709586a2f39a50c9c63c0 f96557842a845c7c339109e416f5b339623e933a almulalic <almir.mulalic.am@gmail.com> 1621639285 +0200	commit: added about page
+f96557842a845c7c339109e416f5b339623e933a f1b61ac0ccb317f9995946ffba0ba2524f7c860b almulalic <almir.mulalic.am@gmail.com> 1621641765 +0200	commit: added catalogue
+f1b61ac0ccb317f9995946ffba0ba2524f7c860b 023837264eafb87d1e0e46dcb498af15bee24847 almulalic <almir.mulalic.am@gmail.com> 1621688845 +0200	commit: added filter settings
+023837264eafb87d1e0e46dcb498af15bee24847 bc65f5eea1d7280665fa321a4efd1ebdd743f4f5 almulalic <almir.mulalic.am@gmail.com> 1621727838 +0200	commit: added slider and reworked dropdown
+bc65f5eea1d7280665fa321a4efd1ebdd743f4f5 2f41da50bba0fe731cdefd0f61aa82f31b79311e almulalic <almir.mulalic.am@gmail.com> 1621775883 +0200	commit: added time filter
+2f41da50bba0fe731cdefd0f61aa82f31b79311e 14c123ae2f49fc0cdb069888b31dcb08a34e50a3 almulalic <almir.mulalic.am@gmail.com> 1621814460 +0200	commit: added screening card
+14c123ae2f49fc0cdb069888b31dcb08a34e50a3 05f9262bc102a794765ce362a2e3f00ae074e3c7 almulalic <almir.mulalic.am@gmail.com> 1621817884 +0200	commit: code refactoring v1
+05f9262bc102a794765ce362a2e3f00ae074e3c7 56f134bd14a8e4f1dd76f00fbb5239bbad449442 almulalic <almir.mulalic.am@gmail.com> 1621888815 +0200	commit: reworked most of the section and content windows, added screening cards and removed redundant css
+56f134bd14a8e4f1dd76f00fbb5239bbad449442 965a5fa1f97d07c30b91c8513274fe527ef53bad almulalic <almir.mulalic.am@gmail.com> 1621902754 +0200	commit: added authpage, sidebar and user control pages
+965a5fa1f97d07c30b91c8513274fe527ef53bad 410976fb555c50043cb7aa14238a8d10a9b7d032 almulalic <almir.mulalic.am@gmail.com> 1621903844 +0200	commit: added cataloge and sidebar state
+410976fb555c50043cb7aa14238a8d10a9b7d032 147f3776629620b101d18cb0b3ac21de4d1a3026 almulalic <almir.mulalic.am@gmail.com> 1621938009 +0200	commit: added reviews auth section
+147f3776629620b101d18cb0b3ac21de4d1a3026 8df0958123184581a1c5641e9a48f96e19ccbd61 almulalic <almir.mulalic.am@gmail.com> 1621941032 +0200	commit: added admin dashboard
+8df0958123184581a1c5641e9a48f96e19ccbd61 3a0b7446741e29a0724b823e7d1548494f918a79 almulalic <almir.mulalic.am@gmail.com> 1621970803 +0200	commit: reworked main content
+3a0b7446741e29a0724b823e7d1548494f918a79 2cde1f2fe04e7393e5b64905d71128af95de7665 almulalic <almir.mulalic.am@gmail.com> 1621971755 +0200	commit: reworked dashbox
+2cde1f2fe04e7393e5b64905d71128af95de7665 92417850d923650c1de29f83e7e94b9482cbee33 almulalic <almir.mulalic.am@gmail.com> 1621988167 +0200	commit: completley redesigned table row and added more features
+92417850d923650c1de29f83e7e94b9482cbee33 3e77108d5e3eb5fa26844a26b6f36f7c699dfc87 almulalic <almir.mulalic.am@gmail.com> 1621988537 +0200	commit: reworked modal so it doesent need to use redux
+3e77108d5e3eb5fa26844a26b6f36f7c699dfc87 04bd6980e70a250944f42641c81e10bbe126a9d2 almulalic <almir.mulalic.am@gmail.com> 1622115615 +0200	commit: added static serving
+04bd6980e70a250944f42641c81e10bbe126a9d2 62e91d294014222ad6e9cae34521acdf836fba93 almulalic <almir.mulalic.am@gmail.com> 1622115910 +0200	commit: expanded static js
+62e91d294014222ad6e9cae34521acdf836fba93 06a2079aaa645b5c6ef45907783be44a2dfc017f almulalic <almir.mulalic.am@gmail.com> 1622115985 +0200	commit: added static js serving
+06a2079aaa645b5c6ef45907783be44a2dfc017f 145f79a85bc90c6f69c19e62a90f8c6150ba8d59 almulalic <almir.mulalic.am@gmail.com> 1622164454 +0200	commit: added add movie page with APIS and a lot of reworks
+145f79a85bc90c6f69c19e62a90f8c6150ba8d59 118181b93f968c6d6f51b334e47022f9d3f4eb75 almulalic <almir.mulalic.am@gmail.com> 1622200761 +0200	commit: iproved add movie page
+118181b93f968c6d6f51b334e47022f9d3f4eb75 ad398bebc43aa023c885fb7834fc5fd1fb03c509 almulalic <almir.mulalic.am@gmail.com> 1622208567 +0200	commit: Added api to movie catalog list
+ad398bebc43aa023c885fb7834fc5fd1fb03c509 06142f555bf65b0a426d85964cfd2063b4d112ac almulalic <almir.mulalic.am@gmail.com> 1622335938 +0200	commit: added loading states and add movie form to add movie page and catalog
+06142f555bf65b0a426d85964cfd2063b4d112ac 52b4d3eb0f5d6f4f23bd134787d7e9c37d4dd9b3 almulalic <almir.mulalic.am@gmail.com> 1622376617 +0200	commit: added skeleton loading
+52b4d3eb0f5d6f4f23bd134787d7e9c37d4dd9b3 e5741b052bd4a39d8ccb680bfc9c3e44395d488d almulalic <almir.mulalic.am@gmail.com> 1622593334 +0200	commit: added user control, added loading stateS
+e5741b052bd4a39d8ccb680bfc9c3e44395d488d 4d70a190395c4aab24e4f2f7e035301b59c019c7 almulalic <almir.mulalic.am@gmail.com> 1622638645 +0200	commit: added reservations
+4d70a190395c4aab24e4f2f7e035301b59c019c7 a2ab0ecb0cb0703b12c89bae9c71669c1a23a650 almulalic <almir.mulalic.am@gmail.com> 1622674347 +0200	commit: Added calendar and screenings/reservations preview
+a2ab0ecb0cb0703b12c89bae9c71669c1a23a650 e5a7ef9fd326eae506466376d9cc683ac600ff1e almulalic <almir.mulalic.am@gmail.com> 1622676153 +0200	commit: redesigned filters on table views
+e5a7ef9fd326eae506466376d9cc683ac600ff1e c9047662556d2fbc2b0aebc542142f283949d606 almulalic <almir.mulalic.am@gmail.com> 1622677811 +0200	commit: added new properties to user
+c9047662556d2fbc2b0aebc542142f283949d606 fc4ba683f6a8a064a1576c7500ab551e7ab3bdf7 almulalic <almir.mulalic.am@gmail.com> 1622679585 +0200	commit: Added radio input
+fc4ba683f6a8a064a1576c7500ab551e7ab3bdf7 39f15b8d0f617d8193ef8d9c148f7c401a744bf7 almulalic <almir.mulalic.am@gmail.com> 1622820524 +0200	commit: added screening timeline
+39f15b8d0f617d8193ef8d9c148f7c401a744bf7 77bdfb2d8263d2a7c86fd91ce6ffd0fcbd14e87f almulalic <almir.mulalic.am@gmail.com> 1622899863 +0200	commit: added redux
+77bdfb2d8263d2a7c86fd91ce6ffd0fcbd14e87f 92c7ad059823b51f88d69b47a65a5244d170b4dc almulalic <almir.mulalic.am@gmail.com> 1622901838 +0200	commit: added internationalziation
+92c7ad059823b51f88d69b47a65a5244d170b4dc 0497f06046e6ca2d757fa0707e5f508ec122f584 almulalic <almir.mulalic.am@gmail.com> 1622904092 +0200	commit: added movie reviews
+0497f06046e6ca2d757fa0707e5f508ec122f584 897e6cd916b3d41094fc046add2ad5f49fc4f9dd almulalic <almir.mulalic.am@gmail.com> 1622933592 +0200	commit: changed color
+897e6cd916b3d41094fc046add2ad5f49fc4f9dd 5e4f4833efbfad619a29aeab14517f0cd52a0a83 almulalic <almir.mulalic.am@gmail.com> 1622943180 +0200	commit: redesigned movie overview
+5e4f4833efbfad619a29aeab14517f0cd52a0a83 75a80309a5fdd00f63290744950c0a2c01d62963 almulalic <almir.mulalic.am@gmail.com> 1623008375 +0200	commit: redesigned movie overview v2
+75a80309a5fdd00f63290744950c0a2c01d62963 b1d81f16a0df904f497b363f61cfb61db1fc886d almulalic <almir.mulalic.am@gmail.com> 1623019311 +0200	commit: added new FAQ
+b1d81f16a0df904f497b363f61cfb61db1fc886d 8da269a6df76b5f763dce7b9eeff063d1eddf458 almulalic <almir.mulalic.am@gmail.com> 1623027409 +0200	commit: added bosnian translation to almost whole non admin interface
+8da269a6df76b5f763dce7b9eeff063d1eddf458 cfec9afe780703252bac8a6b58797a9d6e542ebd almulalic <almir.mulalic.am@gmail.com> 1623027432 +0200	commit (merge): merge master
+cfec9afe780703252bac8a6b58797a9d6e542ebd 49243517a775a00961bafd71a6e456f590a381c5 almulalic <almir.mulalic.am@gmail.com> 1623027749 +0200	commit: fixed styles
+49243517a775a00961bafd71a6e456f590a381c5 6d1aaaf96f1be348f71de8b1977d008944b9983f almulalic <almir.mulalic.am@gmail.com> 1623073317 +0200	commit: redesigned screenings
+6d1aaaf96f1be348f71de8b1977d008944b9983f bd5f2996b09446eb86f13c4f418d61b4d55382ed almulalic <almir.mulalic.am@gmail.com> 1623076171 +0200	commit: screening redesign v2
+bd5f2996b09446eb86f13c4f418d61b4d55382ed 5186b0c5c09e1495a68ddd7b21d36eec57298b21 almulalic <almir.mulalic.am@gmail.com> 1623080240 +0200	commit: added new landing page
+5186b0c5c09e1495a68ddd7b21d36eec57298b21 78d574697a5f110cf40e60bc7b9fd1e3b5a0e3db almulalic <almir.mulalic.am@gmail.com> 1623094256 +0200	pull: Fast-forward
+78d574697a5f110cf40e60bc7b9fd1e3b5a0e3db c4ba8cd86762a1f1efd9c622ab837ebd7607df1a almulalic <almir.mulalic.am@gmail.com> 1623111368 +0200	commit: added new carousel and its loading state
+c4ba8cd86762a1f1efd9c622ab837ebd7607df1a fbf99058dc5cfa0a89490edd9cfd78d6f3ab4cbc almulalic <almir.mulalic.am@gmail.com> 1623112576 +0200	commit: added carousel autoplay
+fbf99058dc5cfa0a89490edd9cfd78d6f3ab4cbc 87842a115c3874a0d6446f6f40ad6ddd84326b26 almulalic <almir.mulalic.am@gmail.com> 1623113595 +0200	commit: simple design changes
+87842a115c3874a0d6446f6f40ad6ddd84326b26 7b7e2189b4cd99308a934cae2371947f3468057f almulalic <almir.mulalic.am@gmail.com> 1623251598 +0200	commit: added API to user
+7b7e2189b4cd99308a934cae2371947f3468057f 5fdbbaa68d965dbb12e83b7e6c9bccb508c77e40 almulalic <almir.mulalic.am@gmail.com> 1623251623 +0200	commit (merge): merge
+5fdbbaa68d965dbb12e83b7e6c9bccb508c77e40 38acb507cac21da2c32c978f2e268b3ba69369f2 almulalic <almir.mulalic.am@gmail.com> 1623261488 +0200	commit: registracija
+38acb507cac21da2c32c978f2e268b3ba69369f2 f31d914b779abd2c2e605afc3303a04f4de998c4 almulalic <almir.mulalic.am@gmail.com> 1623261535 +0200	commit (merge): register
+f31d914b779abd2c2e605afc3303a04f4de998c4 ceebf3b92eea8ffe5a7645e1f6aa0c7f19e707d2 almulalic <almir.mulalic.am@gmail.com> 1623263230 +0200	commit: reservation quick fix
+ceebf3b92eea8ffe5a7645e1f6aa0c7f19e707d2 c4bfd618734902cd67eadcf72ada642e78d54dee almulalic <almir.mulalic.am@gmail.com> 1623284309 +0200	commit: added singup api
+c4bfd618734902cd67eadcf72ada642e78d54dee a6cf633efdd0dad91a04d655492aab12f7c2974a almulalic <almir.mulalic.am@gmail.com> 1623284346 +0200	pull origin master --rebase (start): checkout a6cf633efdd0dad91a04d655492aab12f7c2974a
+a6cf633efdd0dad91a04d655492aab12f7c2974a 8479ba771f988b5f7c7383d9ac95e049dc7e0ee2 almulalic <almir.mulalic.am@gmail.com> 1623284381 +0200	commit: merge
+8479ba771f988b5f7c7383d9ac95e049dc7e0ee2 c4bfd618734902cd67eadcf72ada642e78d54dee almulalic <almir.mulalic.am@gmail.com> 1623284400 +0200	checkout: moving from 8479ba771f988b5f7c7383d9ac95e049dc7e0ee2 to master
+c4bfd618734902cd67eadcf72ada642e78d54dee 864bd5cbb9df636cd48821a6d4ec289fa23b0adf almulalic <almir.mulalic.am@gmail.com> 1623284431 +0200	commit (merge): rebase
+864bd5cbb9df636cd48821a6d4ec289fa23b0adf 864bd5cbb9df636cd48821a6d4ec289fa23b0adf almulalic <almir.mulalic.am@gmail.com> 1623284506 +0200	rebase (skip): updating HEAD
+864bd5cbb9df636cd48821a6d4ec289fa23b0adf 9328dea05cb2af4f837b86765c16e3b0cf0500bc almulalic <almir.mulalic.am@gmail.com> 1623331155 +0200	commit: Added error handling to user forms and finished 90% of users systems
+9328dea05cb2af4f837b86765c16e3b0cf0500bc 0623b395cf7e17e2e192904bc30aefd225b89470 almulalic <almir.mulalic.am@gmail.com> 1623353050 +0200	commit: added profile movie reviews
+0623b395cf7e17e2e192904bc30aefd225b89470 a4aa8bdf1561885e1c8abe14a44bd2e064bf9fc9 almulalic <almir.mulalic.am@gmail.com> 1623534554 +0200	commit: Added new select and worked on add movie page
+a4aa8bdf1561885e1c8abe14a44bd2e064bf9fc9 130718b02ffe02ec22eec06d328cbd25ccebcb13 almulalic <almir.mulalic.am@gmail.com> 1623546812 +0200	commit: add movie form redesign v2
+130718b02ffe02ec22eec06d328cbd25ccebcb13 639e816d46b9acf30867e380c65a83d38c49e2f5 almulalic <almir.mulalic.am@gmail.com> 1623617087 +0200	commit: improved modal states and added more internationalization
+639e816d46b9acf30867e380c65a83d38c49e2f5 4436a226ccdf6aa87f905944717dff66c68a72c8 almulalic <almir.mulalic.am@gmail.com> 1623632825 +0200	commit: added screening form
+4436a226ccdf6aa87f905944717dff66c68a72c8 e2b6a7108f9d5c39f653441696a4dbf4f54ed8c7 almulalic <almir.mulalic.am@gmail.com> 1623692050 +0200	commit: added type overview page
+e2b6a7108f9d5c39f653441696a4dbf4f54ed8c7 68585bbe69f7de6244daa8bc1b8c82bc23479103 almulalic <almir.mulalic.am@gmail.com> 1623785013 +0200	commit: changed base api url
+68585bbe69f7de6244daa8bc1b8c82bc23479103 43e808100cb4a90f03d7149202a78c521d34b646 almulalic <almir.mulalic.am@gmail.com> 1623790098 +0200	commit: updated env
+43e808100cb4a90f03d7149202a78c521d34b646 698df48c51dc0bf47832aa961789be6a0d2dfb30 almulalic <almir.mulalic.am@gmail.com> 1623790877 +0200	commit: dockerfile change
+698df48c51dc0bf47832aa961789be6a0d2dfb30 1e1b4dfe88d387bdd9613a9e32ba755fe65b544d almulalic <almir.mulalic.am@gmail.com> 1623791131 +0200	commit: dockerfile change
+1e1b4dfe88d387bdd9613a9e32ba755fe65b544d 684ec8f2d8f6b667f0f3d3b184050f8eccbb6e71 almulalic <almir.mulalic.am@gmail.com> 1623791934 +0200	commit: package json
+684ec8f2d8f6b667f0f3d3b184050f8eccbb6e71 8f6296a923bb9415c404a2339f399c207718e082 almulalic <almir.mulalic.am@gmail.com> 1623794697 +0200	commit: build config
+8f6296a923bb9415c404a2339f399c207718e082 2d8f278f6b074e9fe79052fd21184b24c190e982 almulalic <almir.mulalic.am@gmail.com> 1623795954 +0200	commit: modules fix
+2d8f278f6b074e9fe79052fd21184b24c190e982 5c9c05cc1436d1da4abb8e29edd36e5aa888046d almulalic <almir.mulalic.am@gmail.com> 1623808019 +0200	commit: main content tweaks
+5c9c05cc1436d1da4abb8e29edd36e5aa888046d f2662d6b2a6fa124b869a714f0dcaa112176a087 almulalic <almir.mulalic.am@gmail.com> 1623811612 +0200	commit: added delete and edit to type service
+f2662d6b2a6fa124b869a714f0dcaa112176a087 dfe6d5c4c9de068195fc63092c605235f43d53ef almulalic <almir.mulalic.am@gmail.com> 1623850597 +0200	commit: Added cinema overview
+dfe6d5c4c9de068195fc63092c605235f43d53ef eda910161a7e724a9408218795901d3fce992107 almulalic <almir.mulalic.am@gmail.com> 1623856634 +0200	commit: redesigned reservations
+eda910161a7e724a9408218795901d3fce992107 dae4cd140a468453032cd850d05a0035101f2a43 almulalic <almir.mulalic.am@gmail.com> 1623856718 +0200	pull --rebase (start): checkout dae4cd140a468453032cd850d05a0035101f2a43
+dae4cd140a468453032cd850d05a0035101f2a43 3f6c1b45cd217fb0a12ccbe7fd664b725ba57f8a almulalic <almir.mulalic.am@gmail.com> 1623856719 +0200	pull --rebase (pick): redesigned reservations
+3f6c1b45cd217fb0a12ccbe7fd664b725ba57f8a 3f6c1b45cd217fb0a12ccbe7fd664b725ba57f8a almulalic <almir.mulalic.am@gmail.com> 1623856719 +0200	pull --rebase (finish): returning to refs/heads/master
+3f6c1b45cd217fb0a12ccbe7fd664b725ba57f8a cc2d9cf7167fe11968f1c75b208181065262581d almulalic <almir.mulalic.am@gmail.com> 1623857133 +0200	commit: added lost translations
+cc2d9cf7167fe11968f1c75b208181065262581d d0acb05468eab2543386233ae0afc37d1d05f40a almulalic <almir.mulalic.am@gmail.com> 1623878540 +0200	commit: final push
+d0acb05468eab2543386233ae0afc37d1d05f40a f938ba1c17516fde5ad77165e020358fcfbc77f8 almulalic <almir.mulalic.am@gmail.com> 1623881776 +0200	commit: small change on screening
+f938ba1c17516fde5ad77165e020358fcfbc77f8 e835396e696f3b71c62e4c598f3aa0a715b8d97a almulalic <almir.mulalic.am@gmail.com> 1623883465 +0200	commit: switched from local api url to live
+e835396e696f3b71c62e4c598f3aa0a715b8d97a 2167c7b85fa8c7dd99803b6106cd75876f223f38 almulalic <almir.mulalic.am@gmail.com> 1623883652 +0200	commit: renamed desktop download file
+2167c7b85fa8c7dd99803b6106cd75876f223f38 1f8af0fe8ca1ec5a58957c66abe7c013510f6250 almulalic <almir.mulalic.am@gmail.com> 1623884044 +0200	commit: added favicon

@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.json": "jsonc",
+    "posix.C": "cpp"
+  }
+}

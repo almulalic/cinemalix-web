@@ -1,0 +1,21 @@
+.comments {
+  margin-bottom: 50px;
+}
+
+.comments__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (min-width: 992px) {
+  .comments {
+    margin-bottom: 45px;
+    padding-right: 20px;
+  }
+}
+
+.content h2 {
+  color: #fff;
+}

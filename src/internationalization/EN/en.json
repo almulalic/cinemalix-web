@@ -1,0 +1,431 @@
+{
+  "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+  "yes": "Da",
+  "no": "No",
+  "here": "here",
+  "user": "User",
+  "usera": "Users",
+  "credential": "Username/Email",
+  "name": "Name",
+  "surname": "Surname",
+  "username": "Username",
+  "email": "Email",
+  "contactPhone": "Contakt phone",
+  "password": "Password",
+  "confirmPassword": "Confirm password",
+  "agreeWithTerms": "Agree with terms",
+  "privacyPolicy": "Privacy policy",
+  "reviews": "Reviews",
+  "save": "Save",
+  "new": "New",
+  "showMore": "Show more",
+  "genres": "Genres",
+  "by": "by",
+  "apply": "Apply",
+  "dismiss": "Dismis",
+  "add": "Add",
+  "lock": "Lock",
+  "unlock": "Unlock",
+  "lockati": "Lock",
+  "unlockati": "unlock",
+  "archive": "Archive",
+  "archiveati": "Archive",
+  "rowsPerPage": "Rows per page",
+  "sortBy": "Sort by",
+  "areYouSureAction": "Are you sure you want * ** ***?",
+  "showingTop": "showing top",
+  "from": "from",
+  "for": "for",
+  "movies": "movies",
+  "screeningsa": "Projection",
+  "screeningsu": "Projection",
+  "outOf": "from",
+  "reservation": "Reservation",
+  "movie": "Movie",
+  "submit": "Submit",
+  "genre": "Genre",
+  "emptyTableHeading": "No data",
+  "emptyTableText": "This table does not appear to have data to display, you can always add data via existing forms",
+  "headers": {
+    "landing": "Landing",
+    "screenings": "Offer",
+    "reservation": "Reservation",
+    "administration": "Administration",
+    "review": "Ratings",
+    "profile": "Profile",
+    "faq": "Questions",
+    "login": "Login",
+    "logout": "Logout",
+    "SignUp": "Registration",
+    "forgotPassword": "Forgot password",
+    "movieOverview": "movie preview",
+    "about": "About us"
+  },
+  "authHeaders": {
+    "landing": "Landing",
+    "dashboard": "Dashboard",
+    "catalog": "Catalog",
+    "reservations": "Reservations",
+    "screenings": "Screenings",
+    "users": "Users",
+    "reviews": "Reviews",
+    "add": "Add",
+    "addMovie": "Add Movie",
+    "editMovie": "Edit Movie",
+    "addScreening": "Add Projection",
+    "editScreening": "Edit Projection",
+    "types": "Type Overview",
+    "editType": "Edit Type",
+    "addHall": "Add Hall",
+    "addGenre": "Add Genre",
+    "addType": "Add Types",
+    "downloadApp": "Download application",
+    "cinemaOverview": "Cinema overview"
+  },
+  "landing": {
+    "moviesOffer": "movies on offer",
+    "topOffers": "Top Offers",
+    "overview": "Overview",
+    "bestRated": "best rated",
+    "allMovies": "All Movies"
+  },
+  "movieOverview": {
+    "videoSource": "Video Source",
+    "releaseYear": "Release Year",
+    "runningTime": "Running",
+    "overview": "Overview",
+    "shareWithFriends": "Share with friends",
+    "screeningTimes": "Screening Times",
+    "has3D": "3D Projection",
+    "hasSubtitles": "Subtitled",
+    "hasAudio": "Synchronized",
+    "hall": "Hall",
+    "noScreeningsFound": "No screenings found for the given day",
+    "noScreeningsMistake": "If you believe that an error has occurred, please contact us",
+    "reviews": "Reviews",
+    "noReviewsFound": "No reviews found",
+    "noReviewsFoundMessage": "You can add a comment by filling out the form above!",
+    "alreadyReviewdHeading": "You've already rated this movie",
+    "alreadyReviewedBody": "Users are allowed to rate each film a maximum of once",
+    "capacity": "Capacity",
+    "booked": "Bought",
+    "reserved": "Reserved",
+    "available": "Available",
+    "reviewFormRating": "Evaluation",
+    "reviewFormTitleField": "Title",
+    "reviewFormBodyField": "Text",
+    "reviewFormButton": "Send",
+    "notLoggedIn": "You are not logged in!",
+    "onlyLoggedUsers": "Only logged in users can add reviews, click",
+    "toGoToLogin": "to visit the login page or",
+    "toGoToSingup": "to register",
+    "youMayAlsoLike": "Movies for you ..."
+  },
+  "profile": {
+    "myProfile": "My profile",
+    "profileDetails": "General information",
+    "updateSuccess": "You have successfully modified your profile",
+    "updateFail": "There was a server error.",
+    "changePassword": "Change password",
+    "oldPassword": "Old password",
+    "newPassword": "New password",
+    "confirmNewPassword": "Confirm new password",
+    "updatePasswordSuccess": "You have successfully changed your password",
+    "updatePasswordFail": "There was a server error"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "location": {
+      "heading": "Where are you and how to find you?",
+      "section1": "The cinema hall is located near the campus of the University of Sarajevo and on the map you can see exactly where we are and how you can reach us."
+    },
+    "parking": {
+      "heading": "Do the locations have parking?",
+      "section1": "Yes, each location has a parking lot with at least 20 places, parking is free but only for the duration of the movie you are visiting!"
+    },
+    "workingHours": {
+      "heading": "What are the opening hours of the cinema?",
+      "section1": "Cinema opening hours are:",
+      "mondayFriday": "Monday-Friday from 10-22",
+      "modayFridayReminder": "at 8 pm the beginning of the last screening",
+      "sunday": "We work from 10-20 on Sundays",
+      "sundayReminder": "last screening at 6 pm",
+      "holiday": "Holidays are non-working"
+    },
+    "halls": {
+      "heading": "What types of halls do you offer?",
+      "section1": "We currently offer halls with a capacity of 50.75 and 100 with a combination of ordinary and love seats"
+    },
+    "movieAvailablity": {
+      "heading": "In what period is a particular film available?",
+      "section1": "Each film in our offer is shown for a minimum of 7 days, and if there is interest, even longer than that!",
+      "section2": "The number of screenings per film is not predetermined, but depends exclusively on ticket sales in the previous days."
+    },
+    "specialOffers": {
+      "heading": "What types of special screenings do you offer?",
+      "section1": "Each film in our offer is shown in the best possible resolution, which is for most 4K resolutions. More than 90% of films have Bosnian subtitles, and for certain (mostly cartoons) we also have audio subtitles. We also offer 3D projections.",
+      "section2": "Next to each film / projection there are labels for each type of film!"
+    },
+    "ticketTypes": {
+      "heading": "What types of maps are available?",
+      "section1": "We currently offer 3 types of tickets.",
+      "kid": "Children's",
+      "kidPrice": "3 KM",
+      "regular": "Regular",
+      "regularPrice": "5 KM",
+      "regular3D": "Regular 3D",
+      "regular3DPrice": "7 KM"
+    },
+    "snacksAndDrinks": {
+      "heading": "Is there a place to buy snacks and drinks?",
+      "section1": "Yes, every cinema complex is equipped with stalls for sale. We offer popcorn, chips, snacks, cola, sprites and many other products. We also often publish special offers with which you can get more while saving money!",
+      "section2": "We cannot guarantee at all times that we have all the products on offer, but thanks to our warehouse monitoring system we can react in time."
+    },
+    "account": {
+      "heading": "Is there a possibility to create an account?",
+      "section1": "Yes, after creating an account you get the opportunity to easily reserve a ticket and add and rate movies in the offer. Based on your comments, we choose the movies that we will return to the offer from time to time. it will get bigger. "
+    },
+    "reservations": {
+      "heading": "Can tickets be booked?",
+      "section1": "Yes, there are 3 ways to book a karate. The first way is to book through the website where you enter your information and choose projections. The next way is to book by calling the cinema or via Viber message. The third way is to book a ticket in to any cinema with the help of our self-service touch screen devices. ",
+      "section2": "Reservations must be confirmed and paid no later than 30 minutes before the start of the show. After that, we cannot guarantee the availability of tickets!"
+    }
+  },
+  "login": {
+    "rememberMe": "Remember me",
+    "loginButton": "Login",
+    "dontHaveAccount": "Don't have an account?",
+    "signUp": "Register?",
+    "forgotPassword": "Forgot your password?"
+  },
+  "signup": {
+    "signUp": "Register",
+    "alreadyHaveAccount": "Have you created an account?",
+    "logIn": "Log in",
+    "signupSuccess": "Registration successful",
+    "signupFail": "Registration failed"
+  },
+  "filter": {
+    "genre": "Genre",
+    "location": "Location",
+    "day": "Day",
+    "hour": "Hour",
+    "rating": "Rating"
+  },
+  "genreTypes": {
+    "ACTION": "ACTION",
+    "COMEDY": "Comedy",
+    "DRAMA": "Drama"
+  },
+  "validation": {
+    "emptyField": "Field * must not be empty!",
+    "tooShortField": "Field * must have at least ** characters",
+    "tooLongField": "Field * can have a maximum of ** characters",
+    "invalidFormat": "Field * does not have a valid format",
+    "outOfRange": "The value field * is not in the range of ** to ***",
+    "passwordDontMatch": "Passwords entered do not match",
+    "privacyPolicyMustBeAccepted": "In order to register, you must accept the privacy policy"
+  },
+  "addMovie": {
+    "searchForTemplate": "Search Movie Template",
+    "cover": "Cover Image",
+    "title": "Title",
+    "description": "Short description",
+    "releaseYear": "Release Year",
+    "runningTimeInMinutes": "Duration",
+    "ageRating": "Age Group",
+    "genres": "Genre / Genres",
+    "overviewLinks": "Overview links (comma separated)",
+    "profitPercentage": "Profit Percentage",
+    "additionalInformation": "Additional Information",
+    "hasLocalAudio": "Synchronized",
+    "hasLocalSubtitles": "Subtitled",
+    "has3D": "3D",
+    "supportedPlatforms": "Supported platforms",
+    "videoTrailers": "Video Review Links",
+    "videoURL": "Video URL (comma separated)",
+    "uploadVideo": "Upload Video",
+    "backdropType": "Background image upload method",
+    "backdropURL": "Background URL",
+    "uploadBackdrop": "Upload Image",
+    "publish": "Publish"
+  },
+  "catalog": {
+    "header": "Movie Catalog",
+    "tableLabels": [
+      "ID",
+      "Name",
+      "Genres",
+      "Review",
+      "Video",
+      "Year limit",
+      "3D",
+      "Synced",
+      "Subtitled",
+      "Date of creation",
+      "Actions"
+    ],
+    "searchForMovies": "Search Movies"
+  },
+  "authReservation": {
+    "header": "Reservations",
+    "dateRange": "Date Range",
+    "searchForMovie": "Search by movie",
+    "overview": "Overview",
+    "timeline": "Timeline",
+    "searchByName": "Search by name",
+    "tableHeaders": [
+      "ID",
+      "Type",
+      "Name and surname",
+      "Contact phone number",
+      "Paid",
+      "Projection ID",
+      "Movie",
+      "Joke",
+      "Date",
+      "Created",
+      "Actions"
+    ]
+  },
+  "authScreenings": {
+    "header": "Projections",
+    "dateRange": "Date Range",
+    "searchForMovie": "Search by movie",
+    "overview": "Overview",
+    "timeline": "Timeline",
+    "tableHeaders": [
+      "ID",
+      "Movie Name",
+      "Hall name",
+      "Day",
+      "Date",
+      "Time",
+      "Synced",
+      "Subtitled",
+      "3D",
+      "Date of creation",
+      "Action"
+    ]
+  },
+  "userControl": {
+    "header": "User Control",
+    "tableHeaders": [
+      "ID",
+      "User Information",
+      "Reservations",
+      "Grades",
+      "Archived",
+      "Locked",
+      "Date of creation",
+      "Actions"
+    ],
+    "searchForUser": "Search User"
+  },
+  "authReviews": {
+    "header": "Movie Ratings",
+    "tableHeaders": [
+      "ID",
+      "Movie Name",
+      "Name and Surname [Username]",
+      "Title",
+      "Description",
+      "Evaluation",
+      "Published"
+    ],
+    "searchForReviews": "Search Ratings"
+  },
+  "addScreening": {
+    "header": "Add Projection",
+    "searchForAMovie": "Search Movie",
+    "defaultTicketType": "Default map type",
+    "hall": "Hall [Capacity]"
+  },
+  "addHall": {
+    "header": "Add Hall",
+    "hallName": "Hall Name",
+    "capacity": "Capacity",
+    "seatValidityRegex": "Regex for seat validation (optional)",
+    "success": "Hall successfully added"
+  },
+  "addTicketType": {
+    "header": "Add Map Type",
+    "ticketType": "Ticket code (unique)",
+    "price": "Price",
+    "description": "Description",
+    "success": "Map type successfully added"
+  },
+  "addGenre": {
+    "header": "Add Genre",
+    "code": "Code (unique, preferably in English)",
+    "name": "Name / description",
+    "success": "Genre successfully added"
+  },
+  "addType": {
+    "header": "Add types",
+    "addType": "Add type",
+    "code": "Code (unique, preferably in English)",
+    "name": "Name / description",
+    "ticket": "Tickets",
+    "ticketType": "Ticket Type",
+    "ticketPrice": "Ticket price",
+    "reservation": "Reservations",
+    "reservationType": "Reservation Type",
+    "payment": "Payments",
+    "paymentType": "PaymentType",
+    "discount": "Discount",
+    "discountPct": "Discount Percent",
+    "discountType": "Discount Type",
+    "success": "Type * successfully added"
+  },
+  "typesOverview": {
+    "header": "Type Overview",
+    "searchForType": "Search Types ...",
+    "ticketTableHeaders": ["Code", "Description", "Price", "Creation Day", "Date Added", "Promotions"],
+    "reservationsTableHeaders": ["Code", "Name", "Creation Day", "Creation Date", "Actions"],
+    "paymentsTableHeaders": ["Code", "Name", "Creation Day", "Creation Date", "Actions"],
+    "discountTypes": [
+      "Code",
+      "Description",
+      "Discount Percentage",
+      "Creation Day",
+      "Creation Date",
+      "Promotions"
+    ]
+  },
+  "cinemaOverview": {
+    "header": "Cinema Overview",
+    "search": "Search",
+    "genres": "Genre",
+    "hall": "Hall",
+    "hallu": "Hello",
+    "ticket": "Tickets",
+    "order": "Orders",
+    "ticketu": "Ticket",
+    "genreTableHeaders": ["Code", "Name", "Number of movies with this genre", "Actions"],
+    "hallsTableHeaders": ["Id", "Name", "Capacity", "Creation Date", "Actions"],
+    "ticketTableHeaders": [
+      "Id",
+      "Movie",
+      "Order Id",
+      "Reserved",
+      "Map Type",
+      "Price",
+      "Headquarter",
+      "Used",
+      "Date of creation",
+      "Actions"
+    ],
+    "ordersTableHeaders": [
+      "id",
+      "Employee Name",
+      "Reserved",
+      "Payment type",
+      "Number of Tickets",
+      "Total price",
+      "Date of creation",
+      "Processing Date",
+      "Actions"
+    ]
+  }
+}

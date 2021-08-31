@@ -1,0 +1,85 @@
+.datePicker__wrap {
+  margin-right: 60px;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.datePicker-input {
+  cursor: pointer;
+  margin: 0;
+  font-size: 16px;
+  height: 40px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  user-select: none;
+  padding: 0;
+}
+
+.datePicker-input {
+  border: 0 !important;
+}
+
+.datePicker-input span {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  color: #ffd700 !important;
+}
+
+.calendar {
+  position: absolute !important;
+  top: 60px;
+}
+
+.calendar-visible {
+  display: block !important;
+}
+
+.calendar-hidden {
+  display: none !important;
+}
+
+.Calendar {
+  border-radius: 0 !important;
+  background-color: #2b2b31 !important;
+}
+
+.Calendar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  display: block;
+  background-image: linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  box-shadow: 0 0 20px 0 rgb(255 88 96 / 50%);
+}
+
+.Calendar button,
+.Calendar__day {
+  color: #fff !important;
+}
+
+.Calendar__day:hover,
+.Calendar__yearSelector button:hover,
+.Calendar__monthYear button:hover,
+.Calendar__monthSelector button:hover {
+  color: #ffd700 !important;
+}
+
+.Calendar__yearSelector,
+.Calendar__monthSelector {
+  background-color: #2b2b31 !important;
+}
+
+.Calendar__yearSelectorWrapper::after {
+  display: none;
+}

@@ -1,0 +1,73 @@
+/*==============================
+	How
+==============================*/
+
+.aboutSection {
+  background-image: url("../../assets/img/section/section.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.how {
+  display: block;
+  margin: 15px 0;
+}
+.how__number {
+  font-size: 50px;
+  line-height: 100%;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: inline-block;
+  background-image: -webkit-linear-gradient(0deg, #ffd700 0%, #dbbb04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #dbbb04;
+}
+.how__title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.how__text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  letter-spacing: 0.2px;
+}
+.how__text b {
+  font-weight: 600;
+}
+@media (min-width: 992px) {
+  .how {
+    margin: 20px 0;
+  }
+}
+/*==============================
+	Partners
+==============================*/
+.partner {
+  display: block;
+  margin: 15px 0;
+}
+.partner__img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  transition: 0.4s ease;
+  opacity: 0.75;
+}
+.partner:hover .partner__img {
+  opacity: 1;
+}
+@media (min-width: 992px) {
+  .partner {
+    margin: 20px 0;
+  }
+}

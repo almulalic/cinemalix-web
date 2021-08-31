@@ -1,0 +1,12 @@
+.anchor {
+  position: relative;
+  background-image: -webkit-linear-gradient(0deg, #ffd700 0%, #dbbb04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #dbbb04 !important;
+  opacity: 0.8;
+}
+
+.anchor:hover {
+  opacity: 1;
+}

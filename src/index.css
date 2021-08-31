@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #2b2b31;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+input,
+textarea,
+select {
+  padding: 0;
+  margin: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+::-moz-selection {
+  background: #fff;
+  color: #000;
+  text-shadow: none;
+}
+
+::selection {
+  background: #fff;
+  color: #000;
+  text-shadow: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.tab-content > .tab-pane {
+  display: none;
+}
+
+.tab-content > .active {
+  display: block;
+}
+
+.fade {
+  -webkit-transition: opacity 0.25s linear;
+  -moz-transition: opacity 0.25s linear;
+  transition: opacity 0.25s linear;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .fade {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+  }
+}
+
+.fade:not(.show) {
+  opacity: 0;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.4s ease;
+  -moz-transition: height 0.4s ease;
+  transition: height 0.4s ease;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .collapsing {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+  }
+}
+
+.b-description_readmore_button {
+  cursor: pointer;
+  display: block;
+  height: 24px;
+  width: 100%;
+  position: relative;
+}
+
+.b-description_readmore_button:before {
+  content: "\f1c8";
+  font-family: "Ionicons";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 22px;
+  line-height: 24px;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.b-description_readmore_button:hover:before,
+.b-description_readmore_button.b-description_readmore_button_active:before {
+  color: #ffd700;
+}
+
+/*==============================
+	mCustomScrollbar customization
+==============================*/
+/* scroll bar 1 */
+.mCS-custom-bar {
+  opacity: 1;
+}
+
+.mCS-custom-bar.mCSB_outside + .mCSB_scrollTools {
+  right: 2px;
+  top: 15px;
+  bottom: 15px;
+}
+
+.mCS-custom-bar.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.mCS-custom-bar.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-image: -moz-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -webkit-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -ms-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  width: 2px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.mCS-custom-bar.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background-image: -moz-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -webkit-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -ms-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+}
+
+.mCS-custom-bar.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-custom-bar.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  background-image: -moz-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -webkit-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -ms-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+}
+/* scroll bar 2 */
+.mCS-custom-bar2 {
+  opacity: 1;
+}
+
+.mCS-custom-bar2.mCSB_outside + .mCSB_scrollTools {
+  right: 2px;
+  top: 20px;
+  bottom: 20px;
+}
+
+.mCS-custom-bar2.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.mCS-custom-bar2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-image: -moz-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -webkit-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -ms-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  width: 2px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.mCS-custom-bar2.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background-image: -moz-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -webkit-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -ms-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+}
+
+.mCS-custom-bar2.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-custom-bar2.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  background-image: -moz-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -webkit-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -ms-linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+  background-image: linear-gradient(180deg, #ffd700 0%, #dbbb04 100%);
+}
+
+.Calendar__monthArrow {
+  color: #fff !important;
+}
+
+.Calendar__day.-selectedBetween {
+  background: #ffd9007c !important;
+}
+
+.Calendar__monthYear button:hover {
+  background: #8c8c958c !important;
+}
+
+.Calendar__yearSelectorItem button:hover {
+  background: #8c8c958c !important;
+}
+
+.Calendar__day:hover {
+  background: #8c8c958c !important;
+}
+
+.-weekend {
+  color: rgb(255, 75, 75) !important;
+}
+
+.-active button {
+  color: #2b2b31 !important;
+}

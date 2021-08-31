@@ -1,0 +1,12 @@
+.container-dropdown {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-dropdown .movieInfo__dropdown {
+  margin-right: 0 !important;
+}
+
+.container-dropdown .filter__item-label {
+  text-align: end;
+}

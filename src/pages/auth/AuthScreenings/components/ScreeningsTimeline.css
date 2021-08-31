@@ -1,0 +1,31 @@
+.screening__timeline .rct-header-root {
+  background: #28282d !important;
+  color: black !important;
+}
+
+.rct-sidebar-row {
+  background: #2b2b31 !important;
+  color: #fff !important;
+}
+
+.rct-item {
+  background: #ffd700 !important;
+  border-color: #dbbb04 !important;
+}
+
+.rct-dateHeader {
+  background: transparent !important;
+  color: #fff !important;
+  border-top: none !important;
+  font-weight: bold !important;
+}
+
+.rct-dateHeader:nth-child(3) {
+  border-left: none !important;
+}
+
+.rct-sidebar-row {
+  text-align: right !important;
+  padding-right: 15px !important;
+  font-weight: bold;
+}

@@ -1,0 +1,426 @@
+{
+  "days": ["Ponedeljak", "Utorak", "Srijeda", "Četvrtak", "Petak", "Subota", "Nedelja"],
+  "yes": "Da",
+  "no": "Ne",
+  "here": "ovde",
+  "user": "Korisnik",
+  "usera": "Korisnika",
+  "credential": "Korisničko ime/Email",
+  "name": "Ime",
+  "surname": "Prezime",
+  "username": "Korisničko ime",
+  "email": "Email",
+  "contactPhone": "Kontakt telefon",
+  "password": "Lozinka",
+  "confirmPassword": "Potvrdite lozinku",
+  "agreeWithTerms": "Slažem se sa",
+  "privacyPolicy": "Pravila privatnosti",
+  "reviews": "Ocjena",
+  "save": "Spasi",
+  "new": "Novi",
+  "showMore": "Pogledaj više",
+  "genres": "Žanrovi",
+  "by": ", ",
+  "apply": "Potvrdi",
+  "dismiss": "Odbaci",
+  "add": "Dodaj",
+  "lock": "Zaključaj",
+  "unlock": "Otključaj",
+  "lockati": "Zaključati",
+  "unlockati": "Otključati",
+  "archive": "Arhiviraj",
+  "archiveati": "Arhivirati",
+  "rowsPerPage": "Redva po stranici",
+  "sortBy": "Sortiraj po",
+  "areYouSureAction": "Da li ste sigurni da želite * ** *** ?",
+  "showingTop": "Prikazujem top",
+  "from": "od",
+  "for": "za",
+  "movies": "filmova",
+  "screeningsa": "Projekcija",
+  "screeningsu": "Projekciju",
+  "outOf": "od",
+  "reservation": "Rezervacija",
+  "movie": "Film",
+  "submit": "Pošalji",
+  "genre": "Žanr",
+  "emptyTableHeading": "Nema podataka",
+  "emptyTableText": "Izgleda da ova tabela nema podataka za prikazivanje, podatke uvijek možete dodati preko postojećih formi",
+  "headers": {
+    "landing": "Početna",
+    "screenings": "Ponuda",
+    "reservation": "Rezervacija",
+    "administration": "Administracija",
+    "review": "Ocjene",
+    "profile": "Profil",
+    "faq": "Pitanja",
+    "login": "Prijavi se",
+    "logout": "Odjavi se",
+    "SignUp": "Registracija",
+    "forgotPassword": "Zaboravljen password",
+    "movieOverview": "Pregled filma",
+    "about": "O nama"
+  },
+  "authHeaders": {
+    "landing": "Početna",
+    "dashboard": "Dashboard",
+    "catalog": "Katalog",
+    "reservations": "Rezervacije",
+    "screenings": "Projekcije",
+    "users": "Korisnici",
+    "reviews": "Recenzije",
+    "add": "Dodaj",
+    "addMovie": "Dodaj Film",
+    "editMovie": "Izmjeni Film",
+    "addScreening": "Dodaj Projekciju",
+    "editScreening": "Izmjeni Projekciju",
+    "types": "Pregled Tipova",
+    "editType": "Izmjeni tip",
+    "addHall": "Dodaj Salu",
+    "editHall": "Izmjeni Salu",
+    "addGenre": "Dodaj Žanr",
+    "editGenre": "Izmjeni Žanr",
+    "addType": "Dodaj Tipove",
+    "cinemaOverview": "Pregled kina",
+    "downloadApp": "Preuzmi aplikaciju"
+  },
+  "landing": {
+    "moviesOffer": "filmovi u ponudi",
+    "topOffers": "Top ponude",
+    "overview": "Pregled",
+    "bestRated": "Najbolje ocjenjeni",
+    "allMovies": "Svi filmovi"
+  },
+  "movieOverview": {
+    "videoSource": "Video izvor",
+    "releaseYear": "Godina izdanja",
+    "runningTime": "Trajanje",
+    "overview": "Pregled",
+    "shareWithFriends": "Podjeli sa prijateljima",
+    "screeningTimes": "Vremena projekcija",
+    "has3D": "3D Projekcija",
+    "hasSubtitles": "Titlovano",
+    "hasAudio": "Sinhronizovano",
+    "hall": "Sala",
+    "noScreeningsFound": "Nijedna projekcija nije pronađena za dan",
+    "noScreeningsMistake": "Ukoliko smatrate da je došlo do greške, kontaktirajte nas",
+    "reviews": "Recenzije",
+    "noReviewsFound": "Nijedna recenzija nije pronađena",
+    "noReviewsFoundMessage": "Možete dodati komentar tako što ispunite formu iznad!",
+    "alreadyReviewdHeading": "Već ste ocjenili ovaj film",
+    "alreadyReviewedBody": "Korisnicima je dozvoljeno maksimalno jednom ocjeniti svaki film",
+    "capacity": "Kapacitet",
+    "booked": "Kupljeno",
+    "reserved": "Rezervisano",
+    "available": "Dostupno",
+    "reviewFormRating": "Ocjena",
+    "reviewFormTitleField": "Naslov",
+    "reviewFormBodyField": "Tekst",
+    "reviewFormButton": "Pošalji",
+    "notLoggedIn": "Niste prijavljeni!",
+    "onlyLoggedUsers": "Samo prijavljeni korisnici mogu dodavati recenzije, kliknite ",
+    "toGoToLogin": "da posjetite stranicu za prijavljivanje ili ",
+    "toGoToSingup": "da se registrujete",
+    "youMayAlsoLike": "Filmovi za vas..."
+  },
+  "profile": {
+    "myProfile": "Moj profil",
+    "profileDetails": "Opće informacije",
+    "updateSuccess": "Uspješno ste izmjenili vaš profil",
+    "updateFail": "Došlo je do greške na serveru.",
+    "changePassword": "Promjeni password",
+    "oldPassword": "Stara lozinka",
+    "newPassword": "Nova lozinka",
+    "confirmNewPassword": "Potvrdite novu lozinku",
+    "updatePasswordSuccess": "Uspješno ste promjenili password",
+    "updatePasswordFail": "Došlo je do greške na serveru"
+  },
+  "faq": {
+    "title": "Često postavljena pitanja",
+    "location": {
+      "heading": "Gdje se nalazite i kako vas pronaći?",
+      "section1": "Kino dvorana se nalazi u blizini kampusa Univerziteta u Sarajevu a na karti možete vidjeti gdje se tačno nalazimo i kako možete doći do nas."
+    },
+    "parking": {
+      "heading": "Da li lokacije posjeduju parking?",
+      "section1": "Da, svaka lokacija posjeduje parking sa najmanje 20 mjesta, parkiranje je besplatno ali samo u trajanju filma kojeg posjećujete!"
+    },
+    "workingHours": {
+      "heading": "Koje je radno vrijeme kina?",
+      "section1": "Radno vrijeme kina je:",
+      "mondayFriday": "Ponedeljak-Petak od 10-22",
+      "modayFridayReminder": "u 20h početak zadnje projekcije",
+      "sunday": "Nedeljom radimo od 10-20",
+      "sundayReminder": "zadnja projekcija u 18h",
+      "holiday": "Praznici su neradni"
+    },
+    "halls": {
+      "heading": "Koje vrste sala imate u ponudi?",
+      "section1": "U ponudi trenutno imamo sale kapaciteta 50,75 i 100 sa kombinacijom običnih i ljubavnih sjedišta"
+    },
+    "movieAvailablity": {
+      "heading": "U kojem periodu je određeni film dostupan?",
+      "section1": "Svaki film u našoj ponudi se prikazuje minimalno 7 dana, a ukoliko postoji interesovanje, i duže od toga!",
+      "section2": "Broj projekcija po filmu nije unaprijed određen već zavisi isključivo od prodaje karata u prethodnim danima."
+    },
+    "specialOffers": {
+      "heading": "Koje tipove specijalnih projekcija imate u ponudi?",
+      "section1": "Svaki film u našoj ponudi se prikazuje u najboljoj mogućoj rezoluciji, što je za većinu 4K rezolucija. Više od 90% filmova ima prevod na bosanski jezik te za određene (uglavnom crtane) filmove imamo i audio prevod. U ponudi imamo i 3D projekcije.",
+      "section2": "Pored svakog filma/projekcije postoje navedene oznake za svaki tip filma!"
+    },
+    "ticketTypes": {
+      "heading": "Koje vrste karti su dostupne?",
+      "section1": "Trenutno u ponudi imamo 3 vrste karata.",
+      "kid": "Dječija",
+      "kidPrice": "3 KM",
+      "regular": "Regularna",
+      "regularPrice": "5 KM",
+      "regular3D": "Regularna 3D",
+      "regular3DPrice": "7 KM"
+    },
+    "snacksAndDrinks": {
+      "heading": "Da li postoji mjesto za kupovinu grickalica i pića?",
+      "section1": "Da, svaki kino kompleks je opremljen štandovima za prodaju. U ponudi imamo kokice, čipseve, grickalice, kolu, sprite i još mnoge druge prozivode. Takođe često objavljujemo specijalne ponude sa kojima možete dobiti više dok štedite novac!",
+      "section2": "U svakom trenutku ne možemo garantovati da baš sve proizvode imamo u ponudi ali zahvaljujući našem sistemu za praćenje skladišta možemo na vrijeme reagovati."
+    },
+    "account": {
+      "heading": "Da li postoji mogućnost kreiranja naloga?",
+      "section1": "Da, nakon kreiranja naloga dobijate mogućnost da lakše rezervišete kartu te da dodajete i ocjenjujete filmove u ponudi. Na osnovu vaših komentara mi biramo filmove koje ćemo sa vremena na vrijeme vratit u ponudu. Sa vremenom mogućnosti koje možete raditi sa nalogom će postati veće."
+    },
+    "reservations": {
+      "heading": "Da li se karte mogu rezervisati?",
+      "section1": "Da, postoje 3 načina za rezervaciju karate. Prvi način je rezervacija preko web stranice u kojoj unosite vaše podatke i birate projekcije. Sljedeći način je rezervacija putem poziva kina ili putem Viber poruke. Treći način je mogućnost da kartu rezervišete u bilo kojem kinu uz pomoć naših touch screen aparata za samouslugu.",
+      "section2": "Rezervacije se moraju potvrditi i platiti najkasnije 30 minuta do početka prikazivanja. Nakon toga ne možemo garantovati sa dostupnost karti!"
+    }
+  },
+  "login": {
+    "rememberMe": "Zapamti me",
+    "loginButton": "Prijavi se",
+    "dontHaveAccount": "Nemate nalog?",
+    "signUp": "Registruj se?",
+    "forgotPassword": "Zaboravili ste password?"
+  },
+  "signup": {
+    "signUp": "Registruj se",
+    "alreadyHaveAccount": "Imate kreiran nalog?",
+    "logIn": "Prijavite se",
+    "signupSuccess": "Registracija uspješna",
+    "signupFail": "Registracija nije uspješna"
+  },
+  "filter": {
+    "genre": "Žanr",
+    "location": "Lokacija",
+    "day": "Dan",
+    "hour": "Sat",
+    "rating": "Ocjena"
+  },
+  "genreTypes": {
+    "ACTION": "Akcijski",
+    "COMEDY": "Komedija",
+    "DRAMA": "Drama"
+  },
+  "validation": {
+    "emptyField": "Polje * ne smije biti prazno!",
+    "tooShortField": "Polje * mora imati barem ** kraktera",
+    "tooLongField": "Polje * može imati maksimalno ** karaktera",
+    "invalidFormat": "Polje * nema validan format",
+    "outOfRange": "Vrijednost polje * se ne nalazi u rasponu od ** do ***",
+    "passwordDontMatch": "Unesene lozinke se ne podudaraju",
+    "privacyPolicyMustBeAccepted": "Da bi ste se registrovali, morate prihvatiti pravila privatnosti"
+  },
+  "addMovie": {
+    "searchForTemplate": "Pretraži predložak filma",
+    "cover": "Naslovna slika",
+    "title": "Naziv",
+    "description": "Kratki opis",
+    "releaseYear": "Godina izdanja",
+    "runningTimeInMinutes": "Trajanje",
+    "ageRating": "Starosna skupina",
+    "genres": "Žanr/Žanrovi",
+    "overviewLinks": "Linkovi za pregled (razdvojeni zarezom)",
+    "profitPercentage": "Postotak profita",
+    "additionalInformation": "Dodatne informacije",
+    "hasLocalAudio": "Sinhronizovan",
+    "hasLocalSubtitles": "Titlovan",
+    "has3D": "3D",
+    "supportedPlatforms": "Podržane platforme",
+    "videoTrailers": "Linkovi za video pregled",
+    "videoURL": "Video URL (razdvojeni zarezima)",
+    "uploadVideo": "Upload videa",
+    "backdropType": "Način upload-a pozadinske slike",
+    "backdropURL": "URL pozadinske slike",
+    "uploadBackdrop": "Upload slike",
+    "publish": "Objavi"
+  },
+  "catalog": {
+    "header": "Katalog filmova",
+    "tableLabels": [
+      "ID",
+      "Naziv",
+      "Žanrovi",
+      "Pregled",
+      "Video",
+      "Ograničenje godina",
+      "3D",
+      "Sinhronizovano",
+      "Titlovano",
+      "Datum kreiranja",
+      "Actions"
+    ],
+    "searchForMovies": "Pretraži filmove"
+  },
+  "authReservation": {
+    "header": "Rezervacije",
+    "dateRange": "Raspon datuma",
+    "searchForMovie": "Pretraži po filmu",
+    "overview": "Pregled",
+    "timeline": "Timeline",
+    "searchByName": "Pretraži po imenu",
+    "tableHeaders": [
+      "ID",
+      "Tip",
+      "Ime i Prezime",
+      "Kontakt Telefon",
+      "Plaćeno",
+      "ID Projekcije",
+      "Film",
+      "Sala",
+      "Datum",
+      "Kreirano",
+      "Akcije"
+    ]
+  },
+  "authScreenings": {
+    "header": "Projekcije",
+    "dateRange": "Raspon datuma",
+    "searchForMovie": "Pretraži po filmu",
+    "overview": "Pregled",
+    "timeline": "Vremenska linija",
+    "tableHeaders": [
+      "ID",
+      "Naziv filma",
+      "Naziv sale",
+      "Dan",
+      "Datum",
+      "Vrijeme",
+      "Sinhronizovano",
+      "Titlovano",
+      "3D",
+      "Datum kreiranja",
+      "Akcija"
+    ]
+  },
+  "userControl": {
+    "header": "Kontrola korisnika",
+    "tableHeaders": [
+      "ID",
+      "Korisninikove informacije",
+      "Rezervacije",
+      "Ocjene",
+      "Arhiviran",
+      "Zaključan",
+      "Datum Kreiranja",
+      "Akcije"
+    ],
+    "searchForUser": "Pretraži korisnika"
+  },
+  "authReviews": {
+    "header": "Ocjene filmova",
+    "tableHeaders": [
+      "ID",
+      "Naziv filma",
+      "Ime i Prezime [Korisničko ime]",
+      "Naslov",
+      "Opis",
+      "Ocjena",
+      "Objavljeno"
+    ],
+    "searchForReviews": "Preatraži ocjene"
+  },
+  "addScreening": {
+    "header": "Dodaj Projekciju",
+    "searchForAMovie": "Pretraži film",
+    "defaultTicketType": "Podrazumijevani tip karte",
+    "hall": "Sala [Kapacitet]"
+  },
+  "addHall": {
+    "header": "Dodaj Salu",
+    "hallName": "Ime sale",
+    "capacity": "Kapacitet",
+    "seatValidityRegex": "Regex za validaciju sjedišta (nije obavezan)",
+    "success": "Sala uspješno dodana"
+  },
+  "addTicketType": {
+    "header": "Dodaj Tip Karte",
+    "ticketType": "Kod karte (unikatan)",
+    "price": "Cijena",
+    "description": "Opis",
+    "success": "Tip karte uspješno dodan"
+  },
+  "addGenre": {
+    "header": "Dodaj žanr",
+    "code": "Kod (unikatan, poželjno na engleskom)",
+    "name": "Ime/opis",
+    "success": "Žanr uspješno dodan"
+  },
+  "addType": {
+    "header": "Dodaj tipove",
+    "addType": "Dodaj tip",
+    "code": "Kod (unikatan, poželjno na engleskom)",
+    "name": "Ime/opis",
+    "ticket": "Karte",
+    "ticketType": "Tip Karte",
+    "ticketPrice": "Cijena karte",
+    "reservation": "Rezervacije",
+    "reservationType": "Tip Rezervacije",
+    "payment": "Plaćanja",
+    "paymentType": "Tip Plaćanja",
+    "discount": "Popust",
+    "discountPct": "Postotak popusta",
+    "discountType": "Tip Popusta",
+    "success": "Tip * uspješno dodan"
+  },
+  "typesOverview": {
+    "header": "Pregled Tipova",
+    "searchForType": "Pretraži tipove...",
+    "ticketTableHeaders": ["Kod", "Opis", "Cijena", "Dan Kreiranja", "Datum Dodavanja", "Akcije"],
+    "reservationsTableHeaders": ["Kod", "Naziv", "Dan Kreiranja", "Datum Kreiranja", "Akcije"],
+    "paymentsTableHeaders": ["Kod", "Naziv", "Dan Kreiranja", "Datum Kreiranja", "Akcije"],
+    "discountTypes": ["Kod", "Opis", "Procenat Popusta", "Dan Kreiranja", "Datum Kreiranja", "Akcije"]
+  },
+  "cinemaOverview": {
+    "header": "Pregled kina",
+    "search": "Pretraži",
+    "genres": "Žanr",
+    "hall": "Sala",
+    "hallu": "Salu",
+    "ticket": "Karte",
+    "order": "Narudžbe",
+    "ticketu": "Kartu",
+    "genreTableHeaders": ["Kod", "Ime", "Broj filmova sa ovim žanrom", "Akcije"],
+    "hallsTableHeaders": ["Id", "Ime", "Kapacitet", "Datum Kreiranja", "Akcije"],
+    "ticketTableHeaders": [
+      "Id",
+      "Film",
+      "Id Narudžbe",
+      "Rezervisana",
+      "Tip Karte",
+      "Cijena",
+      "Sjedište",
+      "Iskorištena",
+      "Datum Kreiranja",
+      "Akcije"
+    ],
+    "ordersTableHeaders": [
+      "id",
+      "Ime uposlenika",
+      "Rezervisano",
+      "Tip plaćanja",
+      "Broj Karata",
+      "Ukupna cijena",
+      "Datum Kreiranja",
+      "Datum Obrade",
+      "Akcije"
+    ]
+  }
+}

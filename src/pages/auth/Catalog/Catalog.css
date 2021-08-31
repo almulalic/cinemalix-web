@@ -1,0 +1,19 @@
+.main__table-wrap {
+  display: flex !important;
+  justify-content: center !important;
+  height: 550px;
+}
+
+.main__table-wrap .spinner {
+  height: 50px;
+  width: 50px;
+}
+
+.main__table-wrap .spinner div {
+  height: 40px;
+  width: 40px;
+}
+
+.mainContent-btn {
+  width: 150px;
+}

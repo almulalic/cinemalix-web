@@ -1,0 +1,134 @@
+.screeningInfoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.movieScreeningCard {
+  margin-bottom: 20px !important;
+}
+
+.screeningInfo__wrap h3 {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.screeningInfo__wrap .screening__times {
+  align-items: flex-start;
+}
+
+.screeningInfo__wrap .screening__times li {
+  margin-bottom: 0;
+}
+
+.screeningInfo__wrap .screening__list {
+  margin-left: 0;
+}
+
+.screeningCard__wrap {
+  background-color: #2b2b31;
+  -webkit-box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.screeningCard__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.screeningCard__bg {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.05;
+  height: 100%;
+  width: 100%;
+}
+
+.screeningCard__wrap:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 20%, rgba(43, 43, 49, 1) 100%);
+}
+
+.screeningCard__content-container {
+  position: relative;
+  z-index: 3;
+}
+
+.screeningCard__contentWrap {
+  margin-left: 40px;
+}
+
+.screeningInfo__wrap h3 {
+  margin-top: 30px;
+}
+
+.screeningCard__contentWrap .screening__list li {
+  margin-top: 15px;
+}
+
+.screeningInfo__wrap .screening__times {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.screeningCard__wrap:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  display: block;
+  background-image: -moz-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -webkit-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -ms-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  background-image: linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  -webkit-box-shadow: 0 0 20px 0 rgba(255, 215, 0, 0.5);
+  box-shadow: 0 0 20px 0 rgba(255, 215, 0, 0.5);
+}
+
+.screeningCard__content img {
+  cursor: pointer;
+}
+
+.screeningCard__content .details__title {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 780px) {
+  .screeningCard__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screeningCard__content img {
+    margin-bottom: 25px;
+  }
+
+  .screeningCard__contentWrap .movieInfo__content * {
+    justify-content: center !important;
+  }
+
+  .screeningCard__contentWrap h1,
+  h3 {
+    text-align: center;
+  }
+}

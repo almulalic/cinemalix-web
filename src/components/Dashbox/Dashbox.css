@@ -1,0 +1,94 @@
+/*==============================
+	Dashbox
+==============================*/
+.dashbox {
+  background-color: #28282d;
+  margin-bottom: 30px;
+}
+
+.dashbox__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dashbox__title h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  margin-bottom: 0;
+}
+
+.dashbox__title h3 i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.dashbox__title h3 i:before {
+  background-image: -webkit-linear-gradient(0deg, #ffd700 0%, #dbbb04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #dbbb04;
+}
+
+.dashbox__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dashbox__more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.05);
+  font-size: 12px;
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.2px;
+  font-family: "Open Sans", sans-serif;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dashbox__more:hover {
+  color: #ffd700;
+}
+
+.dashbox__refresh {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dashbox__refresh:hover {
+  color: #ffd700;
+}
+
+.dashbox__table-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 20px 20px 15px;
+}

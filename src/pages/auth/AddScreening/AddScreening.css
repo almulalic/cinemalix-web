@@ -1,0 +1,81 @@
+.addScreeningForm {
+  width: 500px;
+}
+
+.screeningFormRow {
+  margin-bottom: 20px;
+}
+
+.datePicker-forminput {
+  padding-left: 20px;
+}
+
+.addScreeningForm .ant-picker {
+  height: 50px;
+  background: #2b2b31;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.addScreeningForm .datePicker-input {
+  height: 50px !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  border-radius: 2px !important;
+}
+
+.addScreeningForm .ant-picker-input input {
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.addScreeningForm .ant-picker-input span {
+  color: #fff !important;
+}
+
+.addScreeningForm .ant-picker-clear {
+  background: black !important;
+}
+
+.ant-picker-focused,
+.ant-picker:hover {
+  border: 1px solid #ffd700 !important;
+}
+
+.ant-picker-time-panel-cell-inner {
+  background: transparent !important;
+}
+
+.ant-picker-clear:hover {
+  background: transparent !important;
+}
+
+.ant-picker-time-panel {
+  background: #2b2b31;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ant-picker-time-panel-cell-inner:hover {
+  background: #ffd700 !important;
+  color: black !important;
+}
+
+.ant-picker-footer {
+  background: #2b2b31;
+}
+
+.ant-picker-ok button {
+  background: #ffd700 !important;
+  color: black !important;
+}
+
+.ant-picker-time-panel * {
+  color: #fff !important;
+}
+
+html {
+  --antd-wave-shadow-color: #ffd700 !important;
+}
+
+::selection {
+  color: #ffd700 !important;
+}

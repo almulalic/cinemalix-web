@@ -1,0 +1,19 @@
+.secondayText {
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Open Sans", sans-serif;
+}
+
+.secondayText a {
+  position: relative;
+  background-image: -webkit-linear-gradient(0deg, #ffd700 0%, #dbbb04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #dbbb04;
+  opacity: 0.8;
+}
+
+.secondayText a:hover {
+  opacity: 1;
+}

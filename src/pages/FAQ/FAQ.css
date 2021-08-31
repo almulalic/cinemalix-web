@@ -1,0 +1,58 @@
+/*==============================
+	FAQ
+==============================*/
+.faq {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.faq__title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.faq__text {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.faq__text b {
+  font-weight: 600;
+}
+
+.faq__text:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .faq {
+    margin-bottom: 50px;
+    margin-top: 15px;
+  }
+
+  .faq:last-child {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .faq {
+    padding: 0 20px 0 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .faq {
+    margin-bottom: 60px;
+  }
+
+  .faq:last-child {
+    margin-bottom: 15px;
+  }
+}

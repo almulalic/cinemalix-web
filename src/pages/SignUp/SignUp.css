@@ -1,0 +1,88 @@
+/*==============================
+	Sign
+==============================*/
+.SignUp {
+  display: block;
+  position: relative;
+}
+
+.singup__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.singup__form {
+  background-color: #28282d;
+  -webkit-box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  position: relative;
+  width: 800px;
+}
+
+.signupButton {
+  width: 200px !important;
+}
+
+.signup-secondaryText {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-secondaryText a {
+  margin-left: 5px;
+}
+
+.singup__form:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  display: block;
+  background-image: -moz-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -webkit-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  background-image: -ms-linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  background-image: linear-gradient(90deg, #ffd700 0%, #dbbb04 100%);
+  -webkit-box-shadow: 0 0 20px 0 rgba(255, 215, 0, 0.5);
+  box-shadow: 0 0 20px 0 rgba(255, 215, 0, 0.5);
+}
+
+.singup__logo {
+  margin-bottom: 40px;
+}
+
+.singup__logo a {
+  max-width: 100%;
+  width: auto;
+}
+
+.singup__logo img {
+  max-width: 172px;
+}
+
+@media (min-width: 360px) {
+  .singup__input {
+    width: 280px;
+  }
+}
+
+@media (min-width: 768px) {
+  .singup__form {
+    padding: 50px 60px;
+  }
+
+  .singup__logo {
+    margin-bottom: 50px;
+  }
+}

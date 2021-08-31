@@ -1,0 +1,94 @@
+.group--checkbox {
+  width: 100%;
+  text-align: left;
+}
+
+.group--checkbox input:not(:checked),
+.group--checkbox input:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+.group--checkbox input:not(:checked) + label,
+.group--checkbox input:checked + label {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  cursor: pointer;
+  padding-left: 34px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.group--checkbox input:not(:checked) + label a,
+.group--checkbox input:checked + label a {
+  background-image: -webkit-linear-gradient(0deg, #ffd700 0%, #dbbb04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #dbbb04;
+  opacity: 0.75;
+}
+
+.group--checkbox input:not(:checked) + label a:hover,
+.group--checkbox input:checked + label a:hover {
+  opacity: 1;
+}
+
+.group--checkbox input:not(:checked) + label:before,
+.group--checkbox input:checked + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #2b2b31;
+}
+
+.group--checkbox input:not(:checked) + label:after,
+.group--checkbox input:checked + label:after {
+  font-family: "Ionicons";
+  content: "\f374";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  transition: 0.4s;
+  color: #ffd700;
+}
+
+.group--checkbox input:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  transform: scale(0);
+}
+
+.group--checkbox input:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+}
+
+.group--checkbox label::-moz-selection {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.group--checkbox label::selection {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.group {
+  position: relative;
+  margin-bottom: 20px;
+}

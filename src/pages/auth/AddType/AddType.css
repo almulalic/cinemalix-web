@@ -1,0 +1,24 @@
+.addTypeForm {
+  width: 550px;
+}
+
+.addTypeForm ul {
+  display: flex;
+  justify-content: center;
+}
+
+.addTypeForm h4 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.addTypeForm .form__input {
+  max-height: 50px;
+}
+
+.addTypeForm .datePicker-input {
+  height: 50px !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  border-radius: 2px !important;
+}
