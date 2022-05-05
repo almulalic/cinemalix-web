@@ -7,6 +7,11 @@ Project: Web application for cinema handling <br/>
 Language: React (TS) <br/>
 Contributors: <a href="https://github.com/nkalajdzic1">Nadir Kalajdžić</a>, <a href="https://github.com/Avujcic1">Andrej Vujčić</a> and <a href="https://github.com/almulalic"> me </a>
 
+# Requirements
+
+NodeJS
+npm package manager
+
 # How To Run
 
 To run this app you will first need to run the backend and the initialize the database.
